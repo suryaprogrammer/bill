@@ -1,0 +1,99 @@
+/* 
+*{
+  text-align: center;
+  margin: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+ padding: 5px;
+}*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+
+*{
+  margin: 0;padding: 0;
+  text-align: center;
+  
+}
+#bill{
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  margin-top: 20px;
+
+}
+#from_to{
+  display: flex;
+  /* height: 50px; */
+  margin: auto;
+  width: 100%;
+}
+
+#from{
+  background-color: rgb(212, 134, 134);
+  width: 50%;
+  height: auto;
+}
+#to{
+  background-color: red;
+  width: 50%;
+  height: auto;
+}
+.block_p{
+  margin: 0;padding: 0;
+  /* text-align: left; */
+}
+#order_block{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+#order_block p {
+ text-align: left;
+}
+#sus{
+  margin: 0;padding: 0;
+  margin-bottom: -17px;
+}
+#recipt_table {
+width: 100%;
+}
+
+#recipt_table tr td{
+  border: 1px solid black;
+
+}
+#footer p{
+  text-align: left;
+  margin-left: 10%;
+}
+
+#wrap{
+  flex-wrap:wrap ;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#coll{
+  width: 95%;
+  margin: auto;
+
+}
+
+#coll input{
+ margin: 2px;
+}
+#coll label{
+  margin: auto;
+  width: 25%;
+}
